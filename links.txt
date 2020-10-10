@@ -1,1 +1,4 @@
 http://rewriting.loria.fr/systems.html
+http://cl-informatik.uibk.ac.at/software/kbcv/
+https://homepage.divms.uiowa.edu/~astump/papers/thesis-wehrman.pdf
+https://www.metalevel.at/trs/
