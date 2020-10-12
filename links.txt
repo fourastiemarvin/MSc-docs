@@ -1,4 +1,11 @@
+# Database of Rewriting Systems
 http://rewriting.loria.fr/systems.html
+
+# Knuth-Bendix Completion Visualizer
 http://cl-informatik.uibk.ac.at/software/kbcv/
+
+# Knuth-Bendix Completion subject based thesis
 https://homepage.divms.uiowa.edu/~astump/papers/thesis-wehrman.pdf
+
+# Prolog implementation of the Knuth-Bendix completion procedure
 https://www.metalevel.at/trs/

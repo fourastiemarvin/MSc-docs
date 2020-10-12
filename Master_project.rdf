@@ -1,0 +1,601 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="#item_13">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Racordon</foaf:surname>
+                        <foaf:givenName>Dimitri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stachtiari</foaf:surname>
+                        <foaf:givenName>Emmanouela</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morard</foaf:surname>
+                        <foaf:givenName>Damien</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buchs</foaf:surname>
+                        <foaf:givenName>Didier</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_12"/>
+        <bib:pages>6</bib:pages>
+        <dc:date>2017</dc:date>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Functional Block Programming and Debugging</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_12">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Racordon et al. - 2017 - Functional Block Programming and Debugging.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-0-444-88074-1">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                        <dc:title>Handbook of Theoretical Computer Science</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-0-444-88074-1</dc:identifier>
+                <dc:title>Formal Models and Semantics</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Amsterdam</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Elsevier</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dershowitz</foaf:surname>
+                        <foaf:givenName>Nachum</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jouannaud</foaf:surname>
+                        <foaf:givenName>Jean-Pierre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Van leeuwen</foaf:surname>
+                        <foaf:givenName>JAN</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_16"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.sciencedirect.com/science/article/pii/B9780444880741500111</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>243-320</bib:pages>
+        <dc:date>January 1, 1990</dc:date>
+        <dc:description>DOI: 10.1016/B978-0-444-88074-1.50011-1</dc:description>
+        <dcterms:dateSubmitted>2020-09-28 16:07:53</dcterms:dateSubmitted>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>This chapter focuses on rewrite systems, which are directed equations used to compute by repeatedly replacing sub-terms of a given formula with equal terms until the simplest form possible is obtained. As a formalism, rewrite systems have the full power of Turing machines and may be thought of as nondeterministic Markov algorithms over terms rather than strings. The theory of rewriting is in essence a theory of normal forms. To some extent, it is an outgrowth of the study of A. Church's Lambda Calculus and H. B. Curry's Combinatory Logic. The chapter discusses the syntax and semantics of equations from the algebraic, logical, and operational points of view. To use a rewrite system as a decision procedure, it must be convergent. The chapter describes this fundamental concept as an abstract property of binary relations. To use a rewrite system for computation or as a decision procedure for validity of identities, the termination property is crucial. The chapter presents the basic methods for proving termination. The chapter discusses the question of satisfiability of equations and the convergence property applied to rewriting.</dcterms:abstract>
+        <dc:title>CHAPTER 6 - Rewrite Systems</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_16">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/B9780444880741500111</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-09-28 16:07:56</dcterms:dateSubmitted>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_20">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buchs</foaf:surname>
+                        <foaf:givenName>Didier</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_17"/>
+        <bib:pages>97</bib:pages>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Algebraic Abstract Data Types</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_17">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Buchs - Algebraic Abstract Data Types.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0019995885800036">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00199958"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dershowitz</foaf:surname>
+                        <foaf:givenName>Nachum</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_18"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0019995885800036</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>122-157</bib:pages>
+        <dc:date>05/1985</dc:date>
+        <dcterms:dateSubmitted>2020-10-12 16:19:24</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Computing with rewrite systems</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00199958">
+        <prism:volume>65</prism:volume>
+        <prism:number>2-3</prism:number>
+        <dc:title>Information and Control</dc:title>
+        <dc:identifier>ISSN 00199958</dc:identifier>
+        <dcterms:alternative>Information and Control</dcterms:alternative>
+        <dc:identifier>DOI 10.1016/S0019-9958(85)80003-6</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_18">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Dershowitz - 1985 - Computing with rewrite systems.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s10817-016-9388-y">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0168-7433,%201573-0670"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giesl</foaf:surname>
+                        <foaf:givenName>Jürgen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aschermann</foaf:surname>
+                        <foaf:givenName>Cornelius</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brockschmidt</foaf:surname>
+                        <foaf:givenName>Marc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Emmes</foaf:surname>
+                        <foaf:givenName>Fabian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Frohn</foaf:surname>
+                        <foaf:givenName>Florian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fuhs</foaf:surname>
+                        <foaf:givenName>Carsten</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hensel</foaf:surname>
+                        <foaf:givenName>Jera</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Otto</foaf:surname>
+                        <foaf:givenName>Carsten</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Plücker</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schneider-Kamp</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ströder</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Swiderski</foaf:surname>
+                        <foaf:givenName>Stephanie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thiemann</foaf:surname>
+                        <foaf:givenName>René</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_19"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s10817-016-9388-y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>3-31</bib:pages>
+        <dc:date>1/2017</dc:date>
+        <dcterms:dateSubmitted>2020-10-12 16:19:29</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>In this system description, we present the tool AProVE for automatic termination and complexity proofs of Java, C, Haskell, Prolog, and rewrite systems. In addition to classical term rewrite systems (TRSs), AProVE also supports rewrite systems containing built-in integers (int-TRSs). To analyze programs in high-level languages, AProVE automatically converts them to (int-)TRSs. Then, a wide range of techniques is employed to prove termination and to infer complexity bounds for the resulting rewrite systems. The generated proofs can be exported to check their correctness using automatic certiﬁers. To use AProVE in software construction, we present a corresponding plug-in for the popular Eclipse software development environment.</dcterms:abstract>
+        <dc:title>Analyzing Program Termination and Complexity Automatically with AProVE</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0168-7433,%201573-0670">
+        <prism:volume>58</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Journal of Automated Reasoning</dc:title>
+        <dc:identifier>ISSN 0168-7433, 1573-0670</dc:identifier>
+        <dcterms:alternative>J Autom Reasoning</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/s10817-016-9388-y</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Giesl et al. - 2017 - Analyzing Program Termination and Complexity Autom.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-3-540-22153-1%20978-3-540-25979-4">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>3091</prism:volume>
+                <dc:identifier>ISBN 978-3-540-22153-1 978-3-540-25979-4</dc:identifier>
+                <dc:title>Rewriting Techniques and Applications</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin, Heidelberg</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:seriesEditors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kanade</foaf:surname>
+                        <foaf:givenName>Takeo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kittler</foaf:surname>
+                        <foaf:givenName>Josef</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kleinberg</foaf:surname>
+                        <foaf:givenName>Jon M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mattern</foaf:surname>
+                        <foaf:givenName>Friedemann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mitchell</foaf:surname>
+                        <foaf:givenName>John C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Naor</foaf:surname>
+                        <foaf:givenName>Moni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nierstrasz</foaf:surname>
+                        <foaf:givenName>Oscar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pandu Rangan</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steffen</foaf:surname>
+                        <foaf:givenName>Bernhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sudan</foaf:surname>
+                        <foaf:givenName>Madhu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Terzopoulos</foaf:surname>
+                        <foaf:givenName>Demetri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tygar</foaf:surname>
+                        <foaf:givenName>Dough</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vardi</foaf:surname>
+                        <foaf:givenName>Moshe Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weikum</foaf:surname>
+                        <foaf:givenName>Gerhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:seriesEditors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Oostrom</foaf:surname>
+                        <foaf:givenName>Vincent</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giesl</foaf:surname>
+                        <foaf:givenName>Jürgen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thiemann</foaf:surname>
+                        <foaf:givenName>René</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schneider-Kamp</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Falke</foaf:surname>
+                        <foaf:givenName>Stephan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_24"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-3-540-25979-4_15</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>210-220</bib:pages>
+        <dc:date>2004</dc:date>
+        <dc:description>Series Title: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-540-25979-4_15</dc:description>
+        <dcterms:dateSubmitted>2020-10-12 16:20:42</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>We describe the system AProVE, an automated prover to verify (innermost) termination of term rewrite systems (TRSs). For this system, we have developed and implemented eﬃcient algorithms based on classical simpliﬁcation orders, dependency pairs, and the size-change principle. In particular, it contains many new improvements of the dependency pair approach that make automated termination proving more powerful and eﬃcient. In AProVE, termination proofs can be performed with a user-friendly graphical interface and the system is currently among the most powerful termination provers available.</dcterms:abstract>
+        <dc:title>Automated Termination Proofs with AProVE</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_24">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Giesl et al. - 2004 - Automated Termination Proofs with AProVE.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-0-521-39115-3">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Cambridge University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Terese</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_30"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Computer Science</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Programming / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Programming Languages / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mathematics / Discrete Mathematics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>ISBN 978-0-521-39115-3</dc:identifier>
+        <dc:date>2003-03-20</dc:date>
+        <z:libraryCatalog>Google Books</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Term rewriting systems, which developed out of mathematical logic, consist of sequences of discrete steps where one term is replaced with another. Their many applications range from automatic theorem proving systems to computer algebra. This book begins with several examples, followed by a chapter on basic notions that provides a foundation for the rest of the work. First-order and higher-order theories are presented, with much of the latter material appearing for the first time in book form. Subjects treated include orthogonality, termination, lambda calculus and term graph rewriting. There is also a chapter detailing the required mathematical background.</dcterms:abstract>
+        <dc:title>Term Rewriting Systems</dc:title>
+        <z:numPages>920</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://books.google.fr/books?id=7QQ5u-4tRUkC</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-10-12 16:23:42</dcterms:dateSubmitted>
+        <dc:title>Google Books Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://fr.wikipedia.org/w/index.php?title=Paire_critique&amp;oldid=167614221">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_32"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Paire_critique&amp;oldid=167614221</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>Creative Commons Attribution-ShareAlike License</dc:rights>
+        <dc:date>2020-02-20T10:37:10Z</dc:date>
+        <dc:description>Page Version ID: 167614221</dc:description>
+        <dcterms:dateSubmitted>2020-10-12 16:26:28</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>En informatique, plus précisément en théorie de la réécriture, une paire critique, est une paire de termes qui intervient dans l'étude de la confluence (locale) des systèmes de réécriture. Il s'agit de deux termes obtenus à partir d'un terme t, l'un en appliquant une règle sur t, l'autre en appliquant une règle sur un sous-terme de t. Par exemple, si on dispose des deux règles (u * v) * z → u * (v * z) et x2 * y2 → (x * y)2, et que l'on considère le terme t = (x2 * y2) * z alors ː
+
+si on applique la première règle sur tout le terme t on obtient x2 * (y2 * z)
+si on applique la deuxième règle sur le sous-terme (x2 * y2) on obtient (x * y)2 * zLes termes x2 * (y2 * z) et (x * y)2 * z forment une paire critique.
+L'intérêt des paires critiques est le suivant ː si un système de réécriture n'a qu'un nombre fini de règles, le nombre de ses paires critiques est fini et si toutes ses paires critiques sont joignables alors il est localement confluent.</dcterms:abstract>
+        <dc:title>Paire critique</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Paire_critique&amp;oldid=167614221</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-10-12 16:26:31</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://fr.wikipedia.org/w/index.php?title=Compl%C3%A9tion_de_Knuth-Bendix&amp;oldid=175168325">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_34"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Compl%C3%A9tion_de_Knuth-Bendix&amp;oldid=175168325</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>Creative Commons Attribution-ShareAlike License</dc:rights>
+        <dc:date>2020-09-30T13:50:09Z</dc:date>
+        <dc:description>Page Version ID: 175168325</dc:description>
+        <dcterms:dateSubmitted>2020-10-12 16:26:53</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>La procédure de complétion de Knuth-Bendix ou complétion de Knuth-Bendix (aussi appelée algorithme de Knuth-Bendix ,,) transforme, si elle réussit, un ensemble fini d'identités (sur des termes) décrivant une structure algébrique en un système de réécriture de termes confluent et qui termine (dit alors convergent). Le processus de complétion a été inventé par Donald Knuthaidé d'un étudiant, nommé Peter Bendix, pour la mise en œuvre. 
+En cas de réussite, la complétion donne un moyen effectif de résoudre le problème du mot pour l'algèbre en question, comme cela a été démontré par Gérard Huet,. Par exemple, pour la théorie équationnelle des groupes (voir schéma à droite), la complétion fournit un système de réécriture de terme confluent et qui termine. On peut alors décider si une équation t1 = t2 est vraie dans tous les groupes (même si décider si une formule du premier ordre est vraie dans tous les groupes est indécidable).  
+Malheureusement, le problème du mot étant indécidable en général, la procédure de complétion ne se termine pas toujours avec succès. Elle peut soit s'exécuter indéfiniment, soit échouer en rencontrant une identité non-orientable (qu'elle ne peut pas transformer en règle de réécriture sans être sûre de ne pas mettre en danger la terminaison).
+Il existe une variante de la procédure de complétion qui n'échoue pas sur les identités non orientables. Elle fournit une procédure de semi-décision pour le problème du mot, autrement dit, elle permet de dire si une identité donnée est déductible des identités qui décrivent l'algèbre en question, dans tous les cas où elle l'est effectivement, mais peut ne jamais terminer.</dcterms:abstract>
+        <dc:title>Complétion de Knuth-Bendix</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Compl%C3%A9tion_de_Knuth-Bendix&amp;oldid=175168325</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-10-12 16:26:55</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>
