@@ -9,3 +9,13 @@ https://homepage.divms.uiowa.edu/~astump/papers/thesis-wehrman.pdf
 
 # Prolog implementation of the Knuth-Bendix completion procedure
 https://www.metalevel.at/trs/
+
+#Maude tools
+http://maude.lcc.uma.es/CRChC/
+http://www.lcc.uma.es/%7Eduran/MTT/
+http://maude.sip.ucm.es/debugging/
+
+#Wiki
+https://fr.wikipedia.org/wiki/Compl%C3%A9tion_de_Knuth-Bendix
+https://fr.wikipedia.org/wiki/Paire_critique
+

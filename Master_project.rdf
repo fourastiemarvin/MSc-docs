@@ -129,12 +129,9 @@
         <z:linkMode>1</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
-    <bib:Article rdf:about="#item_20">
-        <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf>
-           <bib:Journal></bib:Journal>
-        </dcterms:isPartOf>
-        <bib:authors>
+    <bib:ConferenceProceedings rdf:about="#item_20">
+        <z:itemType>presentation</z:itemType>
+        <z:presenters>
             <rdf:Seq>
                 <rdf:li>
                     <foaf:Person>
@@ -143,13 +140,11 @@
                     </foaf:Person>
                 </rdf:li>
             </rdf:Seq>
-        </bib:authors>
+        </z:presenters>
         <link:link rdf:resource="#item_17"/>
-        <bib:pages>97</bib:pages>
-        <z:libraryCatalog>Zotero</z:libraryCatalog>
         <z:language>en</z:language>
         <dc:title>Algebraic Abstract Data Types</dc:title>
-    </bib:Article>
+    </bib:ConferenceProceedings>
     <z:Attachment rdf:about="#item_17">
         <z:itemType>attachment</z:itemType>
         <dc:title>Buchs - Algebraic Abstract Data Types.pdf</dc:title>
@@ -487,6 +482,7 @@ DOI: 10.1007/978-3-540-25979-4_15</dc:description>
             </rdf:Seq>
         </bib:authors>
         <link:link rdf:resource="#item_30"/>
+        <link:link rdf:resource="#item_39"/>
         <dc:subject>
             <z:AutomaticTag>
                <rdf:value>Computers / Computer Science</rdf:value>
@@ -527,10 +523,15 @@ DOI: 10.1007/978-3-540-25979-4_15</dc:description>
         <z:linkMode>3</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
-    <rdf:Description rdf:about="https://fr.wikipedia.org/w/index.php?title=Paire_critique&amp;oldid=167614221">
-        <z:itemType>encyclopediaArticle</z:itemType>
+    <z:Attachment rdf:about="#item_39">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Terese - 2003 - Term Rewriting Systems.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://fr.wikipedia.org/w/index.php?title=Paire_critique&amp;oldid=167614221">
+        <z:itemType>webpage</z:itemType>
         <dcterms:isPartOf>
-           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+           <z:Website><dc:title>Wikipédia</dc:title></z:Website>
         </dcterms:isPartOf>
         <link:link rdf:resource="#item_32"/>
         <dc:identifier>
@@ -542,7 +543,6 @@ DOI: 10.1007/978-3-540-25979-4_15</dc:description>
         <dc:date>2020-02-20T10:37:10Z</dc:date>
         <dc:description>Page Version ID: 167614221</dc:description>
         <dcterms:dateSubmitted>2020-10-12 16:26:28</dcterms:dateSubmitted>
-        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
         <z:language>fr</z:language>
         <dcterms:abstract>En informatique, plus précisément en théorie de la réécriture, une paire critique, est une paire de termes qui intervient dans l'étude de la confluence (locale) des systèmes de réécriture. Il s'agit de deux termes obtenus à partir d'un terme t, l'un en appliquant une règle sur t, l'autre en appliquant une règle sur un sous-terme de t. Par exemple, si on dispose des deux règles (u * v) * z → u * (v * z) et x2 * y2 → (x * y)2, et que l'on considère le terme t = (x2 * y2) * z alors ː
 
@@ -550,7 +550,7 @@ si on applique la première règle sur tout le terme t on obtient x2 * (y2 * z)
 si on applique la deuxième règle sur le sous-terme (x2 * y2) on obtient (x * y)2 * zLes termes x2 * (y2 * z) et (x * y)2 * z forment une paire critique.
 L'intérêt des paires critiques est le suivant ː si un système de réécriture n'a qu'un nombre fini de règles, le nombre de ses paires critiques est fini et si toutes ses paires critiques sont joignables alors il est localement confluent.</dcterms:abstract>
         <dc:title>Paire critique</dc:title>
-    </rdf:Description>
+    </bib:Document>
     <z:Attachment rdf:about="#item_32">
         <z:itemType>attachment</z:itemType>
         <dc:identifier>
@@ -563,10 +563,10 @@ L'intérêt des paires critiques est le suivant ː si un système de réécritur
         <z:linkMode>1</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
-    <rdf:Description rdf:about="https://fr.wikipedia.org/w/index.php?title=Compl%C3%A9tion_de_Knuth-Bendix&amp;oldid=175168325">
-        <z:itemType>encyclopediaArticle</z:itemType>
+    <bib:Document rdf:about="https://fr.wikipedia.org/w/index.php?title=Compl%C3%A9tion_de_Knuth-Bendix&amp;oldid=175168325">
+        <z:itemType>webpage</z:itemType>
         <dcterms:isPartOf>
-           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+           <z:Website><dc:title>Wikipédia</dc:title></z:Website>
         </dcterms:isPartOf>
         <link:link rdf:resource="#item_34"/>
         <dc:identifier>
@@ -578,14 +578,13 @@ L'intérêt des paires critiques est le suivant ː si un système de réécritur
         <dc:date>2020-09-30T13:50:09Z</dc:date>
         <dc:description>Page Version ID: 175168325</dc:description>
         <dcterms:dateSubmitted>2020-10-12 16:26:53</dcterms:dateSubmitted>
-        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
         <z:language>fr</z:language>
         <dcterms:abstract>La procédure de complétion de Knuth-Bendix ou complétion de Knuth-Bendix (aussi appelée algorithme de Knuth-Bendix ,,) transforme, si elle réussit, un ensemble fini d'identités (sur des termes) décrivant une structure algébrique en un système de réécriture de termes confluent et qui termine (dit alors convergent). Le processus de complétion a été inventé par Donald Knuthaidé d'un étudiant, nommé Peter Bendix, pour la mise en œuvre. 
 En cas de réussite, la complétion donne un moyen effectif de résoudre le problème du mot pour l'algèbre en question, comme cela a été démontré par Gérard Huet,. Par exemple, pour la théorie équationnelle des groupes (voir schéma à droite), la complétion fournit un système de réécriture de terme confluent et qui termine. On peut alors décider si une équation t1 = t2 est vraie dans tous les groupes (même si décider si une formule du premier ordre est vraie dans tous les groupes est indécidable).  
 Malheureusement, le problème du mot étant indécidable en général, la procédure de complétion ne se termine pas toujours avec succès. Elle peut soit s'exécuter indéfiniment, soit échouer en rencontrant une identité non-orientable (qu'elle ne peut pas transformer en règle de réécriture sans être sûre de ne pas mettre en danger la terminaison).
 Il existe une variante de la procédure de complétion qui n'échoue pas sur les identités non orientables. Elle fournit une procédure de semi-décision pour le problème du mot, autrement dit, elle permet de dire si une identité donnée est déductible des identités qui décrivent l'algèbre en question, dans tous les cas où elle l'est effectivement, mais peut ne jamais terminer.</dcterms:abstract>
         <dc:title>Complétion de Knuth-Bendix</dc:title>
-    </rdf:Description>
+    </bib:Document>
     <z:Attachment rdf:about="#item_34">
         <z:itemType>attachment</z:itemType>
         <dc:identifier>
@@ -598,4 +597,233 @@ Il existe une variante de la procédure de complétion qui n'échoue pas sur les
         <z:linkMode>1</z:linkMode>
         <link:type>text/html</link:type>
     </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-3-642-31364-6%20978-3-642-31365-3">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>7364</prism:volume>
+                <dc:identifier>ISBN 978-3-642-31364-6 978-3-642-31365-3</dc:identifier>
+                <dc:title>Automated Reasoning</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin, Heidelberg</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:seriesEditors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hutchison</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kanade</foaf:surname>
+                        <foaf:givenName>Takeo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kittler</foaf:surname>
+                        <foaf:givenName>Josef</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kleinberg</foaf:surname>
+                        <foaf:givenName>Jon M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mattern</foaf:surname>
+                        <foaf:givenName>Friedemann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mitchell</foaf:surname>
+                        <foaf:givenName>John C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Naor</foaf:surname>
+                        <foaf:givenName>Moni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nierstrasz</foaf:surname>
+                        <foaf:givenName>Oscar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pandu Rangan</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steffen</foaf:surname>
+                        <foaf:givenName>Bernhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sudan</foaf:surname>
+                        <foaf:givenName>Madhu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Terzopoulos</foaf:surname>
+                        <foaf:givenName>Demetri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tygar</foaf:surname>
+                        <foaf:givenName>Doug</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vardi</foaf:surname>
+                        <foaf:givenName>Moshe Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weikum</foaf:surname>
+                        <foaf:givenName>Gerhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:seriesEditors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gramlich</foaf:surname>
+                        <foaf:givenName>Bernhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenName>Dale</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sattler</foaf:surname>
+                        <foaf:givenName>Uli</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sternagel</foaf:surname>
+                        <foaf:givenName>Thomas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zankl</foaf:surname>
+                        <foaf:givenName>Harald</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_35"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-3-642-31365-3_41</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>530-536</bib:pages>
+        <dc:date>2012</dc:date>
+        <dc:description>Series Title: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-642-31365-3_41</dc:description>
+        <dcterms:dateSubmitted>2020-10-12 17:01:25</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>This paper describes a tool for Knuth-Bendix completion. In its interactive mode the user only has to select the orientation of equations into rewrite rules; all other computations (including necessary termination checks) are performed internally. Apart from the interactive mode, the tool also provides a fully automatic mode. Moreover, the generation of (dis)proofs in equational logic is supported. Finally, the tool outputs proofs in a certiﬁable format.</dcterms:abstract>
+        <dc:title>KBCV – Knuth-Bendix Completion Visualizer</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_35">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Sternagel and Zankl - 2012 - KBCV – Knuth-Bendix Completion Visualizer.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://link.springer.com/10.1007/BF01237233">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0001-5903,%201432-0525"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dick</foaf:surname>
+                        <foaf:givenName>Jeremy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kalmus</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Martin</foaf:surname>
+                        <foaf:givenName>Ursula</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://link.springer.com/10.1007/BF01237233</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>95-119</bib:pages>
+        <dc:date>2/1990</dc:date>
+        <dcterms:dateSubmitted>2020-10-14 15:27:01</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Knuth and Bendix proposed a very versatile technique for ordering terms, based upon assigning weights to operators and then to terms by adding up the weights of the operators they contain. Our purpose in this paper is as follows. First we give some examples to indicate the flexibility of the method. Then we give a simple and practical algorithm, based on solving systems of linear inequalities, for determining whether or not a set of rules can be ordered by a Knuth Bendix ordering. We also describe how this algorithm may be incorporated in a completion procedure which thus considers all possible choices of weights which orient a given equation.</dcterms:abstract>
+        <dc:title>Automating the Knuth Bendix ordering</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0001-5903,%201432-0525">
+        <prism:volume>28</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Acta Informatica</dc:title>
+        <dc:identifier>ISSN 0001-5903, 1432-0525</dc:identifier>
+        <dcterms:alternative>Acta Informatica</dcterms:alternative>
+        <dc:identifier>DOI 10.1007/BF01237233</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Dick et al. - 1990 - Automating the Knuth Bendix ordering.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_5">
+        <dc:title>webography</dc:title>
+        <dcterms:hasPart rdf:resource="https://fr.wikipedia.org/w/index.php?title=Paire_critique&amp;oldid=167614221"/>
+        <dcterms:hasPart rdf:resource="https://fr.wikipedia.org/w/index.php?title=Compl%C3%A9tion_de_Knuth-Bendix&amp;oldid=175168325"/>
+    </z:Collection>
 </rdf:RDF>
