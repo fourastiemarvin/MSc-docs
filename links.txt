@@ -1,5 +1,6 @@
 # Database of Rewriting Systems
 http://rewriting.loria.fr/systems.html
+http://www.jaist.ac.jp/~hirokawa/tool/
 
 # Knuth-Bendix Completion Visualizer
 http://cl-informatik.uibk.ac.at/software/kbcv/
@@ -10,10 +11,16 @@ https://homepage.divms.uiowa.edu/~astump/papers/thesis-wehrman.pdf
 # Prolog implementation of the Knuth-Bendix completion procedure
 https://www.metalevel.at/trs/
 
-#Maude tools
+# Maude tools
 http://maude.lcc.uma.es/CRChC/
 http://www.lcc.uma.es/%7Eduran/MTT/
 http://maude.sip.ucm.es/debugging/
+
+# CiME3 manual
+http://a3pat.ensiie.fr/pub/manual-cime3.html
+
+# TRS tool
+http://tfmserver.dsic.upv.es:8080/Home.html
 
 #Wiki
 https://fr.wikipedia.org/wiki/Compl%C3%A9tion_de_Knuth-Bendix
