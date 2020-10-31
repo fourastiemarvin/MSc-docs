@@ -21,6 +21,7 @@ http://a3pat.ensiie.fr/pub/manual-cime3.html
 
 # TRS tool
 http://tfmserver.dsic.upv.es:8080/Home.html
+http://trs-tool.appspot.com/
 
 #Wiki
 https://fr.wikipedia.org/wiki/Compl%C3%A9tion_de_Knuth-Bendix
