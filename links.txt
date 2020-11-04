@@ -1,6 +1,7 @@
 # Database of Rewriting Systems
 http://rewriting.loria.fr/systems.html
 http://www.jaist.ac.jp/~hirokawa/tool/
+http://termination-portal.org/wiki/Termination_Portal
 
 # Knuth-Bendix Completion Visualizer
 http://cl-informatik.uibk.ac.at/software/kbcv/
@@ -22,6 +23,9 @@ http://a3pat.ensiie.fr/pub/manual-cime3.html
 # TRS tool
 http://tfmserver.dsic.upv.es:8080/Home.html
 http://trs-tool.appspot.com/
+
+# TTT2
+http://cl-informatik.uibk.ac.at/software/ttt2/
 
 #Wiki
 https://fr.wikipedia.org/wiki/Compl%C3%A9tion_de_Knuth-Bendix
