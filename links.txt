@@ -31,3 +31,8 @@ http://cl-informatik.uibk.ac.at/software/ttt2/
 https://fr.wikipedia.org/wiki/Compl%C3%A9tion_de_Knuth-Bendix
 https://fr.wikipedia.org/wiki/Paire_critique
 
+
+
+
+https://2020.splashcon.org/details/live-2020-papers/4/Functional-Block-Programming-and-Debugging
+
