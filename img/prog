@@ -1,0 +1,30 @@
+const programInput = `
+    type List $T :: empty | cons $T (List $T)
+    case ajoute($x, $y, cons($y, $tail)) => empty
+    case ajoute($x, cons($y, $tail)) => empty`;
+
+{ ajoute:
+       [ TypeVarRef { range: null, label: 'T0' },
+         TypeVarRef { range: null, label: 'T1' },
+         TypeDeclRef { range: null, name: 'List', arguments: [Array] },
+         TypeDeclRef { range: null, name: 'List', arguments: [Array] } ] }
+
+
+
+const programInput = `
+    case ajoute($x, cons($y, $tail)) => cons($y, $tail)`;
+
+{ ajoute: [ TypeVarRef { range: null, label: 'T0' }, <2 empty items> ] }
+
+
+
+
+const programInput = `
+    type List $T :: empty | cons $T (List $T)
+    rule ajoute $T :: $T -> List $T => List $T
+    case ajoute($x, cons($y, $tail)) => cons($y, $tail)`;
+
+{ ajoute:
+       [ TypeVarRef { range: [Object], label: 'T' },
+         TypeDeclRef { range: [Object], name: 'List', arguments: [Array] },
+         TypeDeclRef { range: [Object], name: 'List', arguments: [Array] } ] }
