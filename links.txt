@@ -16,6 +16,7 @@ https://www.metalevel.at/trs/
 http://maude.lcc.uma.es/CRChC/
 http://www.lcc.uma.es/%7Eduran/MTT/
 http://maude.sip.ucm.es/debugging/
+https://web.archive.org/web/20110514234232/http://www.cs.swan.ac.uk/~csneal/MaudeCourse/index.html
 
 # CiME3 manual
 http://a3pat.ensiie.fr/pub/manual-cime3.html
