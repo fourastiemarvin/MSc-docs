@@ -1,0 +1,22 @@
+(fmod Nat is 
+ sort Nat . 
+op a : -> Nat . 
+op b : -> Nat . 
+op succ : Nat -> Nat . 
+endfm) 
+(fmod FUNRULES is 
+including Nat .
+op f : Nat Nat Nat -> Nat . 
+op g : Nat Nat  -> Nat . 
+var $x : Nat . 
+var $x : Nat . 
+var $x : Nat . 
+var $x : Nat . 
+eq f(a, b, $x) = f($x, $x, $x) .
+var $x : Nat . 
+var $y : Nat . 
+eq g($x, $y) = $x .
+var $x : Nat . 
+var $y : Nat . 
+eq g($x, $y) = $y .
+ endfm)
